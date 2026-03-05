@@ -23,10 +23,10 @@ header {
 /* Flexbox for navigation */
 nav ul {
     display: flex;
-    gap: 20px;
     list-style: none;
-    margin-top: 15px;
+    margin: 30px;
     justify-content: space-evenly;
+    background-color: black;
     
 }
 
