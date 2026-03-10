@@ -8,7 +8,7 @@
 </head>
 <body>
      <header>
-        <h1>Header Content</h1>
+        <h1>WDD131: Dynamic Web Fundamentals</h1>
 
         <nav>
             <ul>
@@ -21,21 +21,67 @@
     </header>
 
     <main>
-        <section>
-            <h2>Main Content</h2>
-            <!--<p>This is the main section content.</p>-->
+    <h1>Jaron Mutombo</h1>
+
+    <div class="card-container">
+
+    <!-- About Me Card -->
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-grid">
+                <p>
+                My name is Jaron K. Mutombo. I am currently studying web development.
+                I enjoy learning how to build websites and improve my programming
+                skills. I like technology, problem solving, and working on projects
+                that help me grow professionally. This is such a journey and I am so 
+                excited to see where it takes me. I am looking forward to learning 
+                more about web development and becoming a skilled developer in the future.
+                We are the future 
+                </p>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPazxhLnskhjxmpREUFsbOo5251LUVvA-kuw&s" alt="Profile Photo">
+            </div>
+
+            <h3>Lubumbashi, Democratic Republic of the Congo</h3>
+
+            
+            <div class="location">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg" alt="Congo Flag">
+                <p>
+                The Democratic Republic of the Congo (DRC) is a beautiful country in 
+                Central Afric known for its vast natural resources and incredible 
+                landscapes. It is home to rich forests, powerful rivers like 
+                the Congo River, and diverse wildlife. The country also has a vibrant
+                culture with many languages, music, and traditions. With its natural 
+                beauty and strong cultural heritage, the DRC has great potential for 
+                growth and development. 
+                </p>
+            </div>
+
         </section>
 
-        <aside>
-            <h2>Aside Content</h2>
-            <!--<p>This is the aside section content.</p>-->
-            
+    <!-- Resources Card -->
+        <aside class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul>
+                <li><a href="#">Dev.to Community</a></li>
+                <li><a href="#">Smashing Magazine</a></li>
+                <li><a href="#">CSS Tricks</a></li>
+                <li><a href="#">W3 Schools</a></li>
+                <li><a href="#">Udemy</a></li>
+            </ul>
         </aside>
+
+    </div>
+
     </main>
 
     <footer>
-        <p>Footer Content</p>
+       <p>© <span id="currentyear"></span> | Jaron Mutombo</p>
+        <p id="lastModified"></p>
     </footer>
-    
+<script src="scripts/getdates.js"></script>   
 </body>
 </html>

@@ -1,64 +1,126 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Use Grid on body */
-body {
-    font-family: Arial, sans-serif;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
 }
 
-/* Header */
-header {
-    background-color: #43474a;
-    color: white;
-    padding: 20px;
+/* HEADER */
+
+header h1{
+    background:#1f4e6c;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
 
-/* Flexbox for navigation */
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 25px;
+nav{
+    background:#333;
+}
+
+nav ul{
+    display:flex;
     justify-content: space-evenly;
-    background-color: black;
-    
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    
+nav li{
+    padding:12px 20px;
 }
 
-/* Main Layout */
-main {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    padding: 20px;
+nav a{
+    color:white;
+    text-decoration:none;
 }
 
-/* Sections */
-section {
-    background-color: #f4f4f4;
-    padding: 20px;
+/* PAGE TITLE */
+
+main h1{
+    text-align:center;
+    margin:20px 0;
 }
 
-aside {
-    background-color: #ddd;
-    padding: 20px;
+/* CARD LAYOUT */
+
+.card-container{
+    max-width:80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:20px;
 }
 
-/* Footer */
-footer {
-    background-color: #43474a;
-    color: white;
-    text-align: center;
-    padding: 15px;
+/* CARD STYLE */
+
+.card{
+    background:white;
+    border-radius:8px;
+    border:1px solid #ddd;
+}
+
+/* CARD HEADER */
+
+.card h2{
+    background:#1f4e6c;
+    color:white;
+    padding:10px;
+    text-align:center;
+    border-radius:8px 8px 0 0;
+}
+
+/* ABOUT SECTION */
+
+.about-grid{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:15px;
+    padding:15px;
+}
+
+.about-grid img{
+    width:110px;
+}
+
+/* LOCATION SECTION */
+
+.card h3{
+    text-align:center;
+    margin-top:10px;
+}
+
+.location{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px;
+}
+
+.location img{
+    width:90px;
+}
+
+/* RESOURCES */
+
+aside ul{
+    padding:20px;
+}
+
+aside li{
+    margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top:30px;
+    background:#1f4e6c;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
