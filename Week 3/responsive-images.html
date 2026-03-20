@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source
+                    srcset="images/temple-large.png"
+                    media="(min-width: 1500px)">
+
+                <source 
+                    srcset="images/temple-medium.png"
+                    media="(min-width: 1000px)">
+
+                <img
+                src="images/temple-small.png"
+                alt="San Antonio Texas Temple" width="500" height="250">
+
+                
+            </picture>
+        </div>
+    </main>
+    
+</body>
+</html>
