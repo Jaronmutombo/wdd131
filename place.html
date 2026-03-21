@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Utah Weather</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Lesotho Southern Africa</h1>
+</header>
+
+<main>
+
+  <!-- HERO IMAGE (Responsive with picture + WebP) -->
+  <picture>
+    <source srcset="images/iceland-large.webp" media="(min-width: 15000px)">
+    <source srcset="images/iceland-medium.webp" media="(min-width: 1000px)">
+    <img src="images/utah.webp" alt="Utah Moab Landscape">
+  </picture>
+
+  <!-- INFO SECTION -->
+  <section class="info">
+    <h2>About Iceland</h2>
+    <p>Iceland is known for its dramatic landscapes, volcanoes, geysers, and glaciers.</p>
+  </section>
+
+  <!-- WEATHER SECTION -->
+  <section class="weather">
+    <h2>Weather</h2>
+    <p>Temperature: <span id="temp">5</span> °C</p>
+    <p>Wind Speed: <span id="wind">10</span> km/h</p>
+    <p>Wind Chill: <span id="windchill"></span></p>
+
+    <!-- Mobile SVG icon -->
+    <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span></p>
+  <p>Last Modified: <span id="modified"></span></p>
+</footer>
+
+</body>
+</html>
