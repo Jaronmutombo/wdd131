@@ -21,11 +21,15 @@ main {
   padding: 1rem;
 }
 
-picture img {
+img {
   width: 100%;
   height: auto;
 }
 
+picture, img {
+    display: block;
+    object-fit: cover;
+}
 section {
   margin: 1rem 0;
 }
