@@ -28,7 +28,7 @@ table {
 
   thead {
     color: #fff;
-    background: #000;
+    background-color: #000;
 
     th {
       padding: 1rem;
@@ -41,7 +41,7 @@ table {
   }
 
   tbody tr:nth-child(even) {
-    background-color: #439592;
+    background-color: #fff;
   }
 }
 
