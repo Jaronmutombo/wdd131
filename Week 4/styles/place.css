@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #003366;
+  --secondary-color: #ffffff;
+  --accent-color: #d62828;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: var(--secondary-color);
+}
+
+header {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+picture, img {
+    display: block;
+    object-fit: cover;
+}
+section {
+  margin: 1rem 0;
+}
+
+/* WEATHER ICON (mobile) */
+.weather-icon {
+  width: 50px;
+}
+
+/* LARGE VIEW */
+@media (min-width: 768px) {
+
+  .weather-icon {
+    display: none;
+  }
+
+  /* Pseudo-element weather icon */
+  .weather h2::after {
+    content: " ⛅";
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
