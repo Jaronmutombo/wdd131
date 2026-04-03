@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+/* Header */
+header {
+    background: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0F172A;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #2563EB;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #2563EB, #1D4ED8);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #2563EB;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+.info {
+    padding: 40px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Dealership cards */
+.dealer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+.dealer-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.dealer-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact form */
+.contact-section {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0F172A;
+    color: white;
+}
