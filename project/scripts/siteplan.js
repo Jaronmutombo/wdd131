@@ -4,62 +4,62 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             name: "Larry H. Miller Toyota",
             location: "Orem, UT",
-            image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=250&fit=crop",
-            link: "https://www.lhmtoyotaorem.com"
+            image: "https://www.ffkr.com/wp-content/uploads/2020/08/Larry-H-Miller-Murray-Toyota-Exterior-Entrance-Straight.jpg",
+            link: "https://www.oremtoyota.com/"
         },
         {
             name: "Ken Garff Honda",
             location: "Orem, UT",
-            image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=250&fit=crop",
-            link: "https://www.kengarffhondaorem.com"
+            image: "https://corearch.com/wp-content/uploads/2018/03/Utah-Automotive-Architecture-Ken-Garff-Orem-Honda.jpg",
+            link: "https://corearch.com/project/ken-garff-honda-dealership/"
         },
         {
             name: "Brent Brown Toyota",
             location: "Orem, UT",
-            image: "https://images.unsplash.com/photo-1493238792000-8113da705763?w=400&h=250&fit=crop",
-            link: "https://www.brentbrowntoyota.com"
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uYuRAdZlkMuPuc00RIcP-xXaSNu6QbC6ww&s",
+            link: "https://www.toyota.com/dealers/utah/orem/84058/brent-brown-toyota/"
         },
         {
             name: "Ford of Provo",
             location: "Provo, UT",
-            image: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=250&fit=crop",
-            link: "https://www.fordofprovo.com"
+            image: "https://content.homenetiol.com/2000292/2140912/0x0/7802ec4dec994d4ca6a86d5cedbcdb6b.jpg",
+            link: "https://www.kengarff.com/ford-ut/"
         },
         {
-            name: "Tesla - Salt Lake City",
-            location: "Salt Lake City, UT",
-            image: "https://images.unsplash.com/photo-1536700503339-1e4b0442073f?w=400&h=250&fit=crop",
-            link: "https://www.tesla.com"
+            name: "Tesla - Pleasant Grove",
+            location: "Pleasant Grove, UT",
+            image: "https://img.ksl.com/slc/2870/287022/28702249.jpeg?filter=kslv2/responsive_story_lg",
+            link: "https://www.tesla.com/findus/location/store/teslapleasantgrove"
         },
         {
             name: "Nate Wade Subaru",
             location: "Salt Lake City, UT",
-            image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=250&fit=crop",
-            link: "https://www.natewadesubaru.com"
+            image: "https://di-uploads-pod47.dealerinspire.com/natewadesubaru/uploads/2023/06/NWS_3183_Full.jpg",
+            link: "https://www.natewade.com/new-vehicles/?_dep_keyword=&_dep_match=&_dep_adid=&_dep_campaignid=21987613352&_dep_adgroupid=&_dep_network=&_dep_ppcid=1&sd_adid=&sd_digadcid=21987613352&sd_keyword=&sd_digadprov=dealereprocess&sd_channel=pmax&sd_campaign_type=google&sd_campaign=00-ALL-NA_AW_InMarket_New__Pmax+%28New%29&sd_program=tier3&sd_adgroup=00-ALL-NA_AW_InMarket_New__Pmax+%28New%29&gad_source=1&gad_campaignid=22011872845&gbraid=0AAAAA9nxfIEXmYr7o4CU8W4IzKpPL3trI&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKf2b_QWtGTroHJgHB5-jKn64nVeHUWgf61Z7kP2bIFNU8lXFRsmAfkaAq1vEALw_wcB"
         },
         {
-            name: "Mark Miller Subaru",
-            location: "Salt Lake City, UT",
-            image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=400&h=250&fit=crop",
-            link: "https://www.markmillersubaru.com"
+            name: "Audi Albany",
+            location: "Saratoga Springs, UT",
+            image: "https://assets.cai-media-management.com/resize/690x240/dealership/8824b31b-f82e-4901-bf1c-361c1cb53297.jpg",
+            link: "https://www.audilehi.com/en/inventory/new/?utm_id=21142007022&gad_source=1&gad_campaignid=21148919888&gbraid=0AAAAAC7tGPfuhhqFq8kCX9psuIxO3Q-0O&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfayIROfV7xXf4T42VJUR50isnZAWRMX8xQDl7kQXwMM-CNfRoePooaAtwOEALw_wcB"
         },
         {
             name: "Volvo Cars Salt Lake City",
             location: "Salt Lake City, UT",
-            image: "https://images.unsplash.com/photo-1544829099-b9c0a607dab9?w=400&h=250&fit=crop",
-            link: "https://www.volvocarsslc.com"
+            image: "https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=248602",
+            link: "https://www.kengarffvolvocars.com/?utm_id=23292578286&gad_source=1&gad_campaignid=23292578286&gbraid=0AAAAADxSkTBafdAAOwZ2HXvhpDMIC6bCT&gclid=Cj0KCQjwv-LOBhCdARIsAM5hdKfkUzlsGjPRSl7HtwLrjIJqPwJOLMCfaPOvAbnU7v9iaML-jZDScSYaAmnGEALw_wcB"
         },
         {
             name: "BMW of Murray",
             location: "Murray, UT",
-            image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=250&fit=crop",
-            link: "https://www.bmwofmurray.com"
+            image: "https://i.ytimg.com/vi/9mnrh6ASXis/maxresdefault.jpg",
+            link: "https://www.bmwofmurray.com/about.htm"
         },
         {
             name: "Mercedes-Benz of Salt Lake City",
             location: "Salt Lake City, UT",
-            image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400&h=250&fit=crop",
-            link: "https://www.mercedesbenzofslc.com"
+            image: "https://mahoneyarch.com/wp-content/uploads/2018/11/1_MERCEDES_BENZ_OF_DRAPER_SHOWROOM.jpg",
+            link: "https://www.mbdraper.com/we-can-order-it.htm"
         }
     ];
 
