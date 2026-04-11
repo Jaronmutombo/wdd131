@@ -4,7 +4,7 @@ const dealerships = [
         name: "Larry H. Miller Toyota",
         location: "Orem, UT",
         image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
-        link: "https://abcmoteur.fr/wp-content/uploads/2020/05/Toyota-Highlander-4.jpg"
+        link: "https://www.larryhmillertoyota.com/"
     },
     {
         name: "Ken Garff Honda",
